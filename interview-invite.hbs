@@ -1,0 +1,35 @@
+{{> _chrome }}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Interview invite · {{organisation_name}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body style="margin:0;padding:0;background:#f2f6ff;">
+<table width="100%" role="presentation"><tr>
+  <td style="background:linear-gradient(90deg,#e9e0ff 0%,#cfe0ff 100%);
+             height:6px;font-size:0;">&nbsp;</td>
+</tr></table>
+<table width="100%" role="presentation"><tr><td style="height:32px;">&nbsp;</td></tr></table>
+
+  <table width="100%" role="presentation"><tr><td align="center">
+    <table class="wrapper rounded shadow" width="600" cellpadding="0" cellspacing="0" border="0"
+           style="width:600px;max-width:600px;background:#ffffff;padding:48px;">
+      <tr><td align="center" style="padding-bottom:32px;"><img src="https://cdn.chaosapp.com/logo-key.png" width="56" alt="CHAOS logo" style="display:block;border:0;outline:none;text-decoration:none;"></td></tr>
+      <tr><td class="font text" style="mso-line-height-rule:exactly;">
+        <h1 class="h1">You’re through to the next stage 🎉</h1>
+        <p style="margin:0 0 16px;">Hi {{name}}, thanks for applying to <strong>{{campaign_name}}</strong> at <strong>{{organisation_name}}</strong>.</p>
+        <p style="margin:0 0 16px;">We’d love to meet you for a short interview. Pick a slot that suits you:</p>
+        <p style="margin:0 0 32px;">
+          <a href="#" class="btn font" style="display:inline-block;padding:14px 32px;font-size:16px;">
+            Book my interview
+          </a>
+        </p>
+        <p style="margin:0;">See you soon!<br>— {{organisation_name}} recruitment</p>
+      </td></tr>
+    </table>
+  </td></tr></table>
+  <table width="100%" role="presentation"><tr><td style="height:48px;">&nbsp;</td></tr></table>
+</body>
+</html>
